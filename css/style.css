@@ -1,7 +1,10 @@
-body{
-    background-color: lightgray;
-    margin: 0;
+*{
     font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    background-color: rgba(211, 211, 211, 0.829);
+    margin: 0;
 /* creazione della parte fuperiore */
 }
 #logo{
@@ -21,6 +24,10 @@ body{
 }
 
 /* inizio creazione corpo pagina */
+.spazio-tra-righe{
+    background-color: #fff;
+    height: 19px;
+}
 
 #contenitore1{
     margin: auto;
@@ -31,7 +38,6 @@ body{
     padding-left: 5%;
     padding-top: 1%;
     border-radius: 3px;
-    
     
 }
 
@@ -45,11 +51,10 @@ body{
 
 #bottone_grigio{
     background-color: transparent;
-    border: 1%;
     width: 60px;
-    border-radius: 4px;
+    border-radius: 1px;
     height: 21px;  
-    border-color: lightgray;
+    border-color: rgba(211, 211, 211, 0.829);
 
 }
 
@@ -59,6 +64,43 @@ body{
 #testo_grigio{
     color: lightgray;
 }
+
+.contenitore2{
+    margin: auto;
+    width: 80%;
+    height: 455px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-top: 6px;
+    border-radius: 1px;
+}
+.spazio2{
+    height: 2px;
+}
+/* inizio creazione tasti colorati*/
+#blu_tasto{
+    border-radius: 25%;
+    background-color: blue;
+    border: 0px;
+}
+#viola_tasto{
+    border-radius: 25%;
+    background-color: purple;
+    border: 0px;
+}
+#verde_tasto{
+    border-radius: 25%;
+    background-color: green;
+    border: 0px;
+}
+#arancio_tasto{
+    border-radius: 25%;
+    background-color: orange;
+    border: 0px;
+}
+/* fine creazione tasti colorati*/
+
 
 
 
