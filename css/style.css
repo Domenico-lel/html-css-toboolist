@@ -117,12 +117,14 @@ body{
 /* modifiche ai simboli*/
 
 .X{
-    color: red;
-    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    border-radius: 55%;
 }
 .v{
-    color: green;
-    border-radius: 50%;
+    background-color: green;
+    color: #fff;
+    border-radius: 55%;
 }
 /* fine modifiche ai simboli*/
 
