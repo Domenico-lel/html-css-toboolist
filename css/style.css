@@ -1,0 +1,19 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+#logo{
+    width: 99%;
+    height: 70px;
+    background-color: #fff;
+    padding-top: 1%;
+    padding-left: 1%;
+    display: inline-block;
+}
+#nomesito{
+    vertical-align: 13px;
+    font-size: 38px;
+}
