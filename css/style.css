@@ -68,7 +68,7 @@ body{
 .contenitore2{
     margin: auto;
     width: 80%;
-    height: 455px;
+    height: 475px;
     background-color: #fff;
     box-sizing: border-box;
     padding-left: 5%;
@@ -97,6 +97,16 @@ body{
 #arancio_tasto{
     border-radius: 25%;
     background-color: orange;
+    border: 0px;
+}
+#rosa_tasto{
+    border-radius: 25%;
+    background-color: rgb(233, 47, 124);
+    border: 0px;
+}
+#verdino_tasto{
+    border-radius: 25%;
+    background-color: rgb(104, 231, 136);
     border: 0px;
 }
 /* fine creazione tasti colorati*/
