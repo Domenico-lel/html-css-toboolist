@@ -1,9 +1,8 @@
 body{
     background-color: lightgray;
     margin: 0;
-    font-family: 'Noto Sans Display', sans-serif;
-    font-family: 'Roboto', sans-serif;
-
+    font-family: Arial, Helvetica, sans-serif
+/* creazione della parte fuperiore */
 }
 #logo{
     width: 99%;
@@ -17,3 +16,48 @@ body{
     vertical-align: 13px;
     font-size: 38px;
 }
+#spazio{
+    height: 30px;
+}
+
+/* inizio creazione corpo pagina */
+
+#contenitore1{
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-top: 1%;
+    border-radius: 3px;
+    
+    
+}
+
+#bottone_blu{
+    background-color: skyblue;
+    border: 0px;
+    width: 60px;
+    border-radius: 4px;
+    height: 20px;      
+}
+
+#bottone_grigio{
+    background-color: transparent;
+    border: 1%;
+    width: 60px;
+    border-radius: 4px;
+    height: 21px;  
+    border-color: lightgray;
+
+}
+
+#testo_bianco{
+    color: #fff;
+}
+#testo_grigio{
+    color: lightgray;
+}
+
+
