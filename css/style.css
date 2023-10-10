@@ -22,13 +22,15 @@ body{
 #spazio{
     height: 30px;
 }
+/* fine parte di sopra */
+
 
 /* inizio creazione corpo pagina */
 .spazio-tra-righe{
     background-color: #fff;
     height: 19px;
 }
-
+/* inizio contenitori */
 #contenitore1{
     margin: auto;
     width: 80%;
@@ -38,9 +40,18 @@ body{
     padding-left: 5%;
     padding-top: 1%;
     border-radius: 3px;
-    
 }
-
+.contenitore2{
+    margin: auto;
+    width: 80%;
+    height: 475px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-top: 6px;
+    border-radius: 1px;
+}
+/* fine contenitori */
 #bottone_blu{
     background-color: skyblue;
     border: 0px;
@@ -65,16 +76,6 @@ body{
     color: lightgray;
 }
 
-.contenitore2{
-    margin: auto;
-    width: 80%;
-    height: 475px;
-    background-color: #fff;
-    box-sizing: border-box;
-    padding-left: 5%;
-    padding-top: 6px;
-    border-radius: 1px;
-}
 .spazio2{
     height: 2px;
 }
@@ -110,6 +111,24 @@ body{
     border: 0px;
 }
 /* fine creazione tasti colorati*/
+
+
+
+/* modifiche ai simboli*/
+
+.X{
+    color: red;
+    border-radius: 50%;
+}
+.v{
+    color: green;
+    border-radius: 50%;
+}
+/* fine modifiche ai simboli*/
+
+
+
+
 
 
 
